@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.64.6:3306/ease?characterEncoding=utf8
+    username: root
+    password: 123456
+  sql:
+    init:
+      schema-locations: schema.sql
+      data-locations: data.sql
+      mode: always
